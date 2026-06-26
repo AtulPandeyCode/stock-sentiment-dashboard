@@ -1,11 +1,22 @@
+import os
 from transformers import pipeline
 
 
 def load_finbert():
-    print("Loading FinBERT model... (may take a moment on first run)")
+    print("Loading FinBERT model...")
+
+    local_path = "./finbert_model"
+
+    if os.path.exists(local_path):
+        print("Found local model, loading from disk...")
+        model_source = local_path
+    else:
+        print("No local model found, downloading from HuggingFace...")
+        model_source = "ProsusAI/finbert"
+
     finbert = pipeline(
         task="text-classification",
-        model="./finbert_model",
+        model=model_source,
         top_k=None
     )
     print("FinBERT loaded successfully.")
