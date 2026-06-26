@@ -45,21 +45,13 @@ Actual Articles
 ## 🛠 Tech Stack
 
 | Component | Technology |
-
 |-----------|------------|
-
 | Frontend | Streamlit |
-
 | AI Model | FinBERT (HuggingFace) |
-
 | Stock Data | yfinance |
-
 | News Data | NewsAPI |
-
 | Charts | Plotly |
-
 | Hosting | Streamlit Community Cloud |
-
 
 
 ## ⚙️ Local Setup
