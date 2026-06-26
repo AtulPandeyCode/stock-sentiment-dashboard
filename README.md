@@ -24,7 +24,7 @@ An AI-powered financial news sentiment analyzer built with FinBERT and Streamlit
 
 !\[Headlines](screenshots/headlines.png)
 
-!\[sentiments](sentiment/charts.png)
+!\[sentiments](sentiments/charts.png)
 
 
 
