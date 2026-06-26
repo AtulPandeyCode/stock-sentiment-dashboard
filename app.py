@@ -48,9 +48,9 @@ with st.sidebar:
 
     ticker = st.text_input(
         "Stock Ticker",
-        value="AAPL",
-        max_chars=10,
-        help="Examples: AAPL, MSFT, TSLA, GOOGL, AMZN"
+        value="MSFT",
+        max_chars=20,
+        help="Examples: AAPL, NVDA, META, JPM, NFLX, ADBE, IBM, TSLA, GOOGL, AMZN, ICICIBANK.NS, TCS.NS, INFY"
     ).upper().strip()
 
     days = st.slider(
@@ -66,6 +66,25 @@ with st.sidebar:
         use_container_width=True,
         type="primary"
     )
+    #---
+
+    st.divider()
+    st.markdown("**📋 Watchlist**")
+
+    if "watchlist" not in st.session_state:
+        st.session_state.watchlist = ["AAPL", "MSFT", "TSLA", "GOOGL", "AMZN"]
+
+    for t in st.session_state.watchlist:
+        if st.button(t, key=f"wl_{t}", use_container_width=True):
+            ticker = t
+
+    if ticker not in st.session_state.watchlist:
+        if st.button(f"+ Add {ticker} to Watchlist", use_container_width=True):
+            st.session_state.watchlist.append(ticker)
+
+    if st.button("Clear Watchlist", use_container_width=True):
+        st.session_state.watchlist = []
+    #___
 
     st.divider()
     st.markdown("**About this app**")
