@@ -1,1 +1,8 @@
+streamlit
+yfinance
+requests
+transformers
+torch
 python-dotenv
+plotly
+pandas
