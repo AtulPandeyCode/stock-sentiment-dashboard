@@ -24,12 +24,9 @@ An AI-powered financial news sentiment analyzer built with FinBERT and Streamlit
 
 !\[Headlines](screenshots/headlines.png)
 
-!\[sentiments](sentiments/charts.png)
+!\[Sentiment](screenshots/sentiment.png)
 
-
-
-
-\## ✨ Features
+## ✨ Features
 
 \- Real-time stock data via yfinance
 
