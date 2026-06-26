@@ -2,14 +2,14 @@ import yfinance as yf
 import time
 
 def fetch_stock_info(ticker):
-    for attempt in range(3):  # try 3 times
+    for attempt in range(3):
         try:
             stock = yf.Ticker(ticker)
             info = stock.info
-            if info.get("shortName"):  # valid response
+            if info.get("shortName"):
                 hist = stock.history(period="1mo")
                 return info, hist
-            time.sleep(2)  # wait 2 sec before retry
+            time.sleep(2)
         except Exception as e:
             print(f"Attempt {attempt+1} failed: {e}")
             time.sleep(2)
