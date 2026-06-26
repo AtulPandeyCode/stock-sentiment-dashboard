@@ -18,10 +18,10 @@ An AI-powered financial news sentiment analyzer built with FinBERT and Streamlit
 
 ## 📸 Screenshots
 
-<img width="1443" height="856" alt="headlines" src="https://github.com/user-attachments/assets/832a99ff-6a2c-4a89-b4d1-72a0d5892901" />
-<img width="1417" height="798" alt="sentiment" src="https://github.com/user-attachments/assets/c83cffe3-bcce-40cd-a382-0c3dff339f08" />
-<img width="1436" height="755" alt="charts" src="https://github.com/user-attachments/assets/a1305c27-d723-46a4-99ec-58bc4aaefad6" />
 <img width="1845" height="977" alt="dashboard" src="https://github.com/user-attachments/assets/f9153fe2-fb0f-4a1f-9807-0e946b645b95" />
+<img width="1436" height="755" alt="charts" src="https://github.com/user-attachments/assets/a1305c27-d723-46a4-99ec-58bc4aaefad6" />
+<img width="1417" height="798" alt="sentiment" src="https://github.com/user-attachments/assets/c83cffe3-bcce-40cd-a382-0c3dff339f08" />
+<img width="1443" height="856" alt="headlines" src="https://github.com/user-attachments/assets/832a99ff-6a2c-4a89-b4d1-72a0d5892901" />
 
 
 ## ✨ Features
