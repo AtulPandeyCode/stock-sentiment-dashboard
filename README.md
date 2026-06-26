@@ -79,10 +79,5 @@ streamlit run app.py
 ## 🏗 Architecture
 
 User → Streamlit UI → yfinance + NewsAPI → FinBERT → Plotly Charts → Dashboard
-
-
-
-\## 📄 License
-
-MIT
+<img width="2816" height="889" alt="Gemini_Generated_Image_d4znscd4znscd4zn" src="https://github.com/user-attachments/assets/308edd0c-6f5f-4069-be7c-33c933a3e999" />
 
